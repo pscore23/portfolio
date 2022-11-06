@@ -2,7 +2,7 @@
     await particlesJS("particles-js", { // 答えは簡単、なんとなくテスト()
         "particles": { // なぜ await まで使ってテストするのかって?
             "number": { // 答えは簡単、なんとなくテスト()
-                "value": 100,
+                "value": 50,
                 "density": {
                     "enable": true,
                     "value_area": 800
@@ -53,7 +53,7 @@
             },
             "move": {
                 "enable": true,
-                "speed": 10,
+                "speed": 5,
                 "direction": "none",
                 "random": true,
                 "straight": false,
