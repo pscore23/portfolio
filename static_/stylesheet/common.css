@@ -1,0 +1,13 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+}
+
+h3 {
+    font-family: 'M PLUS 1p', sans-serif;
+    color: #81d6f0c1;
+}
+
+.animation {
+    visibility: hidden;
+}
