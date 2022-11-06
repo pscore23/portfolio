@@ -14,20 +14,20 @@ var object = {
     }
 }
 
-var element;
+var element1;
 
 function randomInit1() {
-    element = $(".animation");
-    $(element[0]).textillate(object);
+    element1 = $(".animation");
+    $(element1[0]).textillate(object);
 }
 
 function randomAnimeControl() {
-    var elemPos = $(element[1]).offset().top - 50;
+    var elemPos = $(element1[1]).offset().top - 50;
     var scroll = $(window).scrollTop();
     var windowHeight = $(window).height();
 
     if (scroll >= elemPos - windowHeight) {
-        $(element[1]).textillate(object);
+        $(element1[1]).textillate(object);
     }
 }
 
