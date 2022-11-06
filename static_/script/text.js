@@ -6,7 +6,7 @@ var object = {
     in: {
         effect: 'fadeInUp',
         delayScale: 1,
-        delay: 100,
+        delay: 50,
         sync: false,
         shuffle: true,
     },
