@@ -1,3 +1,5 @@
+var element1;
+
 var object = {
     loop: false,
     minDisplayTime: 2000,
@@ -14,8 +16,6 @@ var object = {
     }
 }
 
-var element1;
-
 function randomInit1() {
     element1 = $(".animation");
     $(element1[0]).textillate(object);
@@ -31,8 +31,18 @@ function randomAnimeControl() {
     }
 }
 
+function sleep(waitSec) {
+    var startSec = new Date();
+
+    while (new Date() - startSec < waitSec);
+}
+
 $(window).on('load', function () {
     randomInit1();
     randomAnimeControl();
+
+    sleep(1000);
+
+    $(".icon").html("<img src='https://avatars.githubusercontent.com/u/103930835?v=4' width='150px' height='150px' class='fade'>");
 });
 
